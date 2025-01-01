@@ -10,12 +10,12 @@ export default function Index() {
       <View
         style={{
           flex: 1,
-          justifyContent: "flex-start",
+          justifyContent: "center",
           alignItems: "center",
           backgroundColor: "green"
         }}
       >
-        <Text style={{ color: "blue" }}>Hello World</Text>
+        <Text style={{ color: "white", fontSize: 20, fontWeight: 700 }}>Hello World</Text>
         <StatusBar style="dark" backgroundColor="blue" />
       </View>
     </>
